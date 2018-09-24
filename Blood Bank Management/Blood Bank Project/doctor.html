@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="CSS/topc.css">
+<link rel="stylesheet" type="text/css" href="CSS/overlay.css">
+</head>
+<body>
+<div class="header">
+ <img src="IMG/logo.png">
+</div>
+<ul>
+  <li><a href="home.html">HOME</a></li>
+  <li><a href="news.html">NEWS</a></li>
+  <li><a class="active" href="doctor.html">DOCTORS</a></li>
+    <li><a href="donate.html">DONATE</a></li>
+<li><a href="know.html">KNOW MORE?</a></li>
+<li class="dropdown">
+    <div class="dropbtn">SETTINGS  <i class="down" style="border-width: 0 4px 4px 0"></i></div>
+    <div class="dropdown-content">
+      <a href="#">MY ACCOUNT</a>
+      <a href="login.html">Sign Out</a>
+    </div>
+  </li>
+  <li style="float:right"><img src="IMG/avatar.png" alt="Avatar" class="avatar"></li>
+ </ul>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<a href="blood.html"><button class="btn"><i class="fa fa-search-plus"> </i> NEED BLOOD? </button></a>
+<link rel="stylesheet" type="text/css" href="CSS/doc.css">
+<h1><font size="10px" color="red">OUR DOCTORS</font></h1>
+<p><font size="5px">THE BEST WE CAN SERVE.</font></p>
+<br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="IMG/doc1.png" alt="Madhulika" style="width:100%">
+      <div class="container">
+        <h2>Dr. Madhulika Suraj</h2>
+        <p class="title">Founder & HEAD of dept.</p>
+        <p>General Physician, MBBS</p>
+        <p>madhulika@rbc.in</p>
+        <p><button class="button" onclick="opencon()">Contact</button></p>
+         <div id="con" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closecon()">&times;</a>
+       <div class="overlay-content">
+       <img src="IMG/madhu.png" width="600px" height="400px">
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="IMG/doc3.png" alt="Rishika" style="width:100%">
+      <div class="container">
+        <h2>Dr. Rishika Suraj</h2>
+        <p class="title">Co-Founder, HEAD of dept.</p>
+        <p> Blood-donar&nbspadvisor, MBBS</p>
+        <p>rishika@rbc.in</p>
+        <p><button class="button" onclick="opencon1()">Contact</button></p>
+         <div id="con1" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closecon1()">&times;</a>
+       <div class="overlay-content">
+       <img src="IMG/rish.png" width="600px" height="400px">
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="IMG/doc2.png" alt="Raghav" style="width:100%">
+      <div class="container">
+        <h2>Dr. Raghav Jain</h2>
+        <p class="title">HEAD of division</p>
+        <p>Specialist&nbspin&nbspHIV&nbsp&&nbspHepatitis,MBBS</p>
+        <p>raghav@rbc.in</p>
+        <p><button class="button" onclick="opencon2()">Contact</button></p>
+        <div id="con2" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closecon2()">&times;</a>
+       <div class="overlay-content">
+       <img src="IMG/raghav.png" width="600px" height="400px">
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+function opencon() {
+    document.getElementById("con").style.height = "100%";
+}
+
+function closecon() {
+    document.getElementById("con").style.height = "0%";
+}
+function opencon1() {
+    document.getElementById("con1").style.height = "100%";
+}
+
+function closecon1() {
+    document.getElementById("con1").style.height = "0%";
+}
+function opencon2() {
+    document.getElementById("con2").style.height = "100%";
+}
+
+function closecon2() {
+    document.getElementById("con2").style.height = "0%";
+}
+
+</script>
+</body>
+</html>

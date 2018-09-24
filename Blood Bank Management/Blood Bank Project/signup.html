@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIGN UP</title>
+      <link rel="stylesheet" href="CSS/style1.css">
+      <script src="JS/sign.js"></script>
+</head>
+<body>
+  <div class="body-text"></div>
+  <form method="post">
+      <div class="personal-information">
+        <h1>Medi Card</h1>
+      </div><br>
+          <input id="column-left" type="text" name="first-name" placeholder="First Name" required="required"/>
+          <input id="column-right" type="text" name="last-name" placeholder="Surname" required="required"/>
+          <input id="username1" type="email" name="email" autocomplete="on" maxlength="40" placeholder="Email" required="required"/>
+          <input id="password1" type="password" name="pass" placeholder="Password" required="required"/>
+          <input id="conpass" type="password" name="pass1" placeholder="Confirm Password" required="required"/>          
+          <input id="column-left" type="text" name="dob" placeholder="DD / MM / YYYY" required="required"/>
+          <input id="column-right" type="text" name="bg" maxlength="3" placeholder="Blood Group" required="required"/>
+          <input id="input-field" type="text" name="streetaddress" autocomplete="on" maxlength="45" placeholder="Street Address" required="required"/>
+          <input id="column-left" type="text" name="city" autocomplete="on" maxlength="20" placeholder="City" required="required"/>
+          <input id="column-right" type="text" name="zipcode" autocomplete="on" pattern="[0-9]*" maxlength="6" placeholder="ZIP code" required="required"/>
+         <input id="input-field" type="text" name="state" autocomplete="on" placeholder="State" required="required"/>
+          <br><hr><br>
+          <label1>Check all that apply to you or your immediate family (parents, siblings, &nbsp&nbspgrandparents): </label1>
+          <br><br>
+          <label class="container"> Asthma / Lung Problems
+          <input name="check" type="checkbox"/> 
+           <span class="checkmark"></span>
+           </label>
+           <label class="container"> Cancer
+           <input name="check" type="checkbox"/> 
+           <span class="checkmark"></span>
+           </label>
+           <label class="container"> Cardiac Disease
+          <input name="check" type="checkbox"/>
+           <span class="checkmark"></span>
+           </label>
+           <label class="container"> Diabetes
+          <input name="check" type="checkbox"/>
+          <span class="checkmark"></span>
+          </label>
+          <label class="container"> History of Back Pain
+          <input name="check" type="checkbox"/>
+          <span class="checkmark"></span>
+          </label>
+          <label class="container"> Hypertension
+          <input name="check" type="checkbox"/>
+          <span class="checkmark"></span>
+          </label>
+          <label class="container"> Psychiatric Disorders
+          <input name="check" type="checkbox"/>
+          <span class="checkmark"></span>
+          </label>
+          <label class="container"> Stroke
+          <input name="check" type="checkbox"/>
+          <span class="checkmark"></span>
+          </label>
+          <br><hr><br>
+          <label1>Check all symptoms you are currently experiencing</label1><br><br>
+          <label class="container"> Allergy
+          <input name="sym" type="checkbox"/>
+          <span class="checkmark"></span>
+          </label>
+          <label class="container"> Cardiovascular
+          <input name="sym" type="checkbox"/>
+          <span class="checkmark"></span>
+          </label>
+          <label class="container"> Chest Pain
+          <input name="sym" type="checkbox"/>
+          <span class="checkmark"></span>
+          </label>
+          <label class="container"> Diabetes Mellitus
+          <input name="sym" type="checkbox"/>
+          <span class="checkmark"></span>
+          </label>
+          <label class="container"> Ear / Nose / Throat
+          <input name="sym" type="checkbox"/>
+          <span class="checkmark"></span>
+          </label>
+          <label class="container"> Eye
+          <input name="sym" type="checkbox"/>
+          <span class="checkmark"></span>
+          </label>
+          <label class="container"> Fever
+          <input name="sym" type="checkbox"/>
+          <span class="checkmark"></span>
+          </label>
+          <label class="container"> Neurological
+          <input name="sym" type="checkbox"/>
+          <span class="checkmark"></span>
+          </label>
+          <label class="container"> Respiratory
+          <input name="sym" type="checkbox"/>
+          <span class="checkmark"></span>
+          </label>
+          <label class="container"> Skin
+          <input name="sym" type="checkbox"/>
+          <span class="checkmark"></span>
+          </label>
+          <label class="container"> Weight Gain
+          <input name="sym" type="checkbox"/>
+          <span class="checkmark"></span>
+          </label>
+          <label class="container">  Weight Loss
+          <input name="sym" type="checkbox"/>
+          <span class="checkmark"></span>
+          </label>
+          <label class="container"> Connective Tissue Disease
+          <input name="sym" type="checkbox"/>
+          <span class="checkmark"></span>
+          </label>
+          <br><hr><br>
+          <label1>If you are a woman, are you currently pregnant, or is there a possibility &nbsp&nbspthat you are pregnant?</label1><br><br>
+          <div class="dropbtn">
+          <select name="dropdown">
+          <option value=""></option>
+          <option value="0">Yes</option>
+          <option value="1">No</option>
+          </select>
+          </div>
+          <br><hr><br>
+          <label1>Are you currently using or do you have a history of tobacco use?</label1><br><br>
+          <label class="container"> Yes
+          <input name="tob" type="radio"/>
+          <span class="radiomark"></span>
+          </label>
+          <label class="container"> No
+          <input name="tob" type="radio"/>
+          <span class="radiomark"></span>
+          </label>
+          <br><hr><br>
+          <label1>Are you currently using or do you have a history of illegal drug use?</label1><br><br>
+          <label class="container"> Yes
+          <input name="drug" type="radio"/>
+          <span class="radiomark"></span>
+          </label>
+          <label class="container"> No
+          <input name="drug" type="radio"/>
+          <span class="radiomark"></span>
+          </label>
+           <br><hr><br>
+           <label1>Do you feel you are at risk for falls or falling injuries?</label1><br><br>
+          <label class="container"> Yes
+          <input name="inj" type="radio"/>
+          <span class="radiomark"></span>
+          </label>
+          <label class="container"> No
+          <input name="inj" type="radio"/>
+          <span class="radiomark"></span>
+          </label>
+           <br><hr><br>
+            <label1>Please describe your alcohol consumption :</label1><br><br>
+          <label class="container"> Daily
+          <input name="alc" type="radio"/>
+          <span class="radiomark"></span>
+          </label>
+          <label class="container"> Weekly
+          <input name="alc" type="radio"/>
+          <span class="radiomark"></span>
+          </label>
+          <label class="container"> Monthly
+          <input name="alc" type="radio"/>
+          <span class="radiomark"></span>
+          </label>
+          <label class="container"> Occasionally
+          <input name="alc" type="radio"/>
+          <span class="radiomark"></span>
+          </label>
+          <label class="container"> Rarely
+          <input name="alc" type="radio"/>
+          <span class="radiomark"></span>
+          </label>
+          <label class="container"> Never
+          <input name="alc" type="radio"/>
+          <span class="radiomark"></span>
+          </label>
+           <br><br>        
+          <input id="input-button" type="submit" value="Sign Up"  onclick="success()">
+          <button type="button" class="btn" onclick="log()"><center>Already have an account?</center></button>
+    </form>
+</body>
+</html>
